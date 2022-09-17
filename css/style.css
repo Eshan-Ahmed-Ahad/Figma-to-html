@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Inter' !important;
+    overflow-x: hidden;
+}
+.nav-link {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+margin-left: 20px;
+
+}
+.SignUp {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+
+}
+.SignUp img {
+    background: #F5F6F7;
+    border-radius: 10px;
+    width: 30px;
+    height: 25px;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+.section1 {
+    background-image: url("../Img/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+}
+.section1 h1{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+text-align: center;
+letter-spacing: -0.304762px;
+color: #FFFFFF;
+padding-top: 100px;
+
+}
+.Section1P {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 10px;
+
+}
+.TopFooterSection {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+    border-radius: 8px;
+    max-width: 945px;
+    height: 80px;
+    position: absolute;
+    margin: 0px auto;
+    bottom: 10px;
+    left: 50%;
+    z-index: 99;
+    width: 98%;
+    transform: translateX(-50%);
+}
+.TopFooterSection p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin-left: 10px;
+
+letter-spacing: -0.1px;
+color: #9A9EA7;
+}
+.form-select {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+border: none !important;
+margin-top: -15px;
+}
+.Withoutp {
+    margin-top: 27px;
+}
+
+.HeaderButton {
+    background: #7963F0;
+border-radius: 10px;
+padding: 7px 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #FFFFFF;
+
+}
+.HeaderButton img {
+    margin-top: -3px;
+}
+
+
+.Section2 {
+    margin-top: 120px;
+    margin-bottom: 100px;
+} 
+
+.BorderRight {
+    border-right: 1px solid #EDE8E9 ;
+    height: 40px;
+    margin-top: 15px;
+}
+
+
+.section3 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+text-align: center;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    margin-bottom: 50px;
+}
+
+
+
+.SomeMargin {
+    margin-top: 30px;
+}
+
+.section3 h5 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+margin-top: 10px;
+
+color: #0D0A19;
+
+}
+.section3 p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+
+color: #9A9EA7;
+}
+
+.Button1 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+    color: #7963f0 !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-family: 'Inter';
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    letter-spacing: -0.1px !important;
+}
+.Button2 {
+    background-color: #f5f6f7 !important;
+    color: #9a9ea7 !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-family: 'Inter';
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    letter-spacing: -0.1px !important;
+}
+.card {
+    border: none !important;
+}
+
+
+/* section4 area  */
+.FindcarHeader {
+    width: 98%;
+    height: 60px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.section4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.findCar {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+}
+
+.ArrowArea{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: right;
+color: #9A9EA7;
+
+}
+
+header p span {
+    margin:0px 5px;
+    width: 30px;
+    height: 30px;
+
+} 
+.ArrowArea {
+    margin-top: 15px;
+}
+.ArrowArea img {
+background: #F5F6F7;
+border-radius: 10px;
+padding: 10px !important;
+
+}
+.Sedan {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #0D0A19;
+
+}
+
+
+
+.ProBTN {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+	border-radius: 8px !important;
+	color: #7963f0 !important;
+}
+
+.ProBTN1 {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+    background: #F5F6F7;
+    border-radius: 8px;
+    color: #9A9EA7;
+}
+.product {
+	min-width: 24%;
+	margin: 0 20px 50px 0px;
+	position: relative;
+	left: 0;
+	transition: 0.5s;
+}
+
+
+
+@media all and (max-width:767px){
+    .section1 h1 {
+        font-size: 38px;
+    }
+    .Section1P {
+        font-size: 16px;
+    }
+    .TopFooterSection { 
+        height: 100px ;
+        margin-top: -50px !important;
+    }
+    .HeaderButton{
+        width: 95%;
+        padding: 17px 0px;
+       
+    }
+    .Section2 {
+        margin-top: 320px;
+    }
+    .Section2 img{
+        margin-top: 20px;
+    } 
+
+}
+
